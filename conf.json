@@ -1,0 +1,14 @@
+[{ "host": "testA.localdomain",
+   "path": "/feed.xml",
+   "items": [ { "id":    "1",
+                "title": "test1",
+                "link":  "link1"}
+	          ]
+},
+{  "host": "testB.localdomain",
+   "path": "/feed.xml",
+   "items": [ { "id":    "2",
+                "title": "test2",
+                "link":  "link2"}
+	          ]
+}]
