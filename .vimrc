@@ -18,8 +18,10 @@ endif
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 filetype plugin on
+
 set completeopt=menu
-let OmniCpp_SelectFirstItem = 2
+" au Filetype java setlocal omnifunc=javacomplete#Complete
+" let OmniCpp_SelectFirstItem = 2
 " map <C-F12> :!ctags * --c-types=+p --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 " map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 " map <C-F1> <F12>
@@ -89,7 +91,6 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set tabstop=4
-au Filetype java setlocal omnifunc=javacomplete#Complete
  " colorscheme desert256
  " colorscheme desert
  " colorscheme elflord

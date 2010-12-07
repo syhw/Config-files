@@ -57,6 +57,8 @@ if version >= 500
  " highlight Special gui=NONE guibg=grey95
 endif
  " colorscheme wombat
-colorscheme zenburn
+ " colorscheme zenburn
+colorscheme molokai
 set lines=65
+set guifont=Menlo:h13
 
