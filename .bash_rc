@@ -52,6 +52,9 @@ function range () {
 
 set -o vi
 set bell-style none
+
+PYTHONSTARTUP=~/.pythonrc.py
+export PYTHONSTARTUP
 	
 export PATH="$PATH":/Users/gabrielsynnaeve/labs/depot_tools
 export CLICOLOR=1

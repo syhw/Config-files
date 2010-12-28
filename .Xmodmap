@@ -3,5 +3,4 @@ keycode 66 = Alt_L
 add Mod1 = Alt_L
 
 remove Lock = Caps_Lock
-keysym Escape = Caps_Lock
 keysym Caps_Lock = Escape
