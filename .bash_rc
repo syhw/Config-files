@@ -35,6 +35,7 @@ alias sshweeg='ssh snippy@weego.homeip.net'
 alias amke='make'
 alias fgfg='fg'
 alias pyt='python2.6'
+alias portup='sudo port selfupdate && sudo port -c -u upgrade outdated'
 
 #alias mpeg2encode=mpeg2enc
 

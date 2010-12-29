@@ -1,7 +1,7 @@
 #
 # Your previous .profile  (if any) is saved as .profile.mpsaved
 # Setting the path for MacPorts.
-export PATH=/Users/gabrielsynnaeve/.cabal/bin:~/local/bin:/opt/local/bin:/opt/local/sbin:$PATH:/usr/local/ada-4.3/bin:/usr/sbin:/usr/local/bin
+export PATH=/Users/gabrielsynnaeve/.cabal/bin:/Users/gabrielsynnaeve/.gem/ruby/1.8/bin:~/local/bin:/usr/local/bin:/usr/local/sbin::/opt/local/bin:/opt/local/sbin:$PATH:/usr/local/ada-4.3/bin:/usr/sbin
 #export PATH=/usr/sbin:/usr/local/bin:~/local/bin:/opt/local/bin:/opt/local/sbin:$PATH:/usr/local/ada-4.3/bin BECAUSE OF CABAL
 export DISPLAY=:0.0
 export CPATH=/usr/X11R6/include:/opt/local/include
@@ -28,16 +28,6 @@ function range () {
     done
 } 
 
-# Setting PATH for MacPython 2.5
-# The orginal version is saved in .bash_profile.pysave
-#PATH="/Library/Frameworks/Python.framework/Versions/Current/bin:${PATH}"
-#export PATH
-
-##
-# Your previous /Users/gabrielsynnaeve/.bash_profile file was backed up as /Users/gabrielsynnaeve/.bash_profile.macports-saved_2009-11-18_at_14:13:00
-##
-
-# MacPorts Installer addition on 2009-11-18_at_14:13:00: adding an appropriate PATH variable for use with MacPorts.
-## export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
-
+if [ -f /opt/local/etc/bash_completion ]; then
+    . /opt/local/etc/bash_completion
+fi
