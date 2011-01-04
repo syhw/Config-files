@@ -14,8 +14,8 @@ XTerm*faceSize: 13
 !xterm*font:                     -*-dejavu sans mono-medium-r-normal-*-17-120-100-100-m-*-*-*
 !default is 6x13
 
-!urxvt.font:  xft:inconsolata:size=12
-urxvt.font: xft:monaco:size=12
+urxvt.font:  xft:inconsolata:size=12
+!urxvt.font: xft:monaco:size=12
 urxvt.background: gray6
 urxvt.foreground: gray90
 urxvt*Curses:                   True

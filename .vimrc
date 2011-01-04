@@ -1,14 +1,3 @@
-" An example for a vimrc file.
-"
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2002 Sep 19
-"
-" To use it, copy it to
-"     for Unix and OS/2:  ~/.vimrc
-"	      for Amiga:  s:.vimrc
-"  for MS-DOS and Win32:  $VIM\_vimrc
-"	    for OpenVMS:  sys$login:.vimrc
-
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
   finish
@@ -18,6 +7,9 @@ endif
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 filetype plugin on
+
+set backupdir=~/.vim/backup
+set directory=~/.vim/swap
 
 set completeopt=menu
 " au Filetype java setlocal omnifunc=javacomplete#Complete
@@ -121,4 +113,5 @@ set suffixesadd=.mkd
 augroup mkd
     autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:&gt;
 augroup END
+
 
