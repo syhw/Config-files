@@ -1,13 +1,12 @@
 #
 # Your previous .profile  (if any) is saved as .profile.mpsaved
 # Setting the path for MacPorts.
-export PATH=/Users/gabrielsynnaeve/.cabal/bin:/Users/gabrielsynnaeve/.gem/ruby/1.8/bin:~/local/bin:/usr/local/bin:/usr/local/sbin::/opt/local/bin:/opt/local/sbin:$PATH:/usr/local/ada-4.3/bin:/usr/sbin
-#export PATH=/usr/sbin:/usr/local/bin:~/local/bin:/opt/local/bin:/opt/local/sbin:$PATH:/usr/local/ada-4.3/bin BECAUSE OF CABAL
+export PATH=$PATH:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/Users/gabrielsynnaeve/.gem/ruby/1.8/bin:~/local/bin:/usr/local/ada-4.3/bin:/usr/sbin
 export DISPLAY=:0.0
 export CPATH=/usr/X11R6/include:/opt/local/include
-export LIBRARY_PATH=/usr/X11R6/lib:/opt/local/lib:/usr/lib
+export LIBRARY_PATH=/usr/X11R6/lib:/opt/local/lib:/usr/local/lib:/usr/lib
 export SVN_EDITOR=vim
-export USERWM=`which xmonad`
+export USERWM=`which awesome`
 alias sshserv='ssh snippy@82.233.119.108'
 alias sshhome='ssh -p 7777 snippy@82.233.119.108'
 alias pingserv='ping 82.233.119.108'

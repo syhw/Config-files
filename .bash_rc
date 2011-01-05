@@ -15,7 +15,7 @@ export CFLAGS="-O3 -march=core2" # :)
 export CXXFLAGS="${CFLAGS}"
 export CPPFLAGS="${CFLAGS}"
 export LDFLAGS="${CFLAGS}"
-export PERL5LIB="/opt/local/lib/perl5/vendor_perl/5.8.9"
+export PERL5LIB="$PERL5LIB:/opt/local/lib/perl5/vendor_perl/5.8.9"
 # GRAY="\[\033[1;30m\]"
 # LIGHT_GRAY="\[\033[0;37m\]"
 # CYAN="\[\033[0;36m\]"
