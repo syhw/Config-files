@@ -11,10 +11,10 @@ export LC_CTYPE=fr_FR.UTF-8
 export LANG=fr_FR.UTF-8
 export LANGUAGE=fr_FR.UTF-8
 export LC_MESSAGES=fr_FR.UTF-8
-export CFLAGS="-O3 -march=core2" # :)
-export CXXFLAGS="${CFLAGS}"
-export CPPFLAGS="${CFLAGS}"
-export LDFLAGS="${CFLAGS}"
+#export CFLAGS="-O3 -march=core2" # :)
+#export CXXFLAGS="${CFLAGS}"
+#export CPPFLAGS="${CFLAGS}"
+#export LDFLAGS="${CFLAGS}"
 export PERL5LIB="$PERL5LIB:/opt/local/lib/perl5/vendor_perl/5.8.9"
 # GRAY="\[\033[1;30m\]"
 # LIGHT_GRAY="\[\033[0;37m\]"
@@ -30,6 +30,7 @@ alias sshserv='ssh snippy@82.233.119.108'
 alias sshhome='ssh -p 7777 snippy@82.233.119.108'
 alias pingserv='ping 82.233.119.108'
 alias sshimag='ssh synnaevg@ensisun.imag.fr'
+alias sshplbr='ssh snippy@mc-188-165-44-236.ovh.net'
 alias scpresume="rsync --partial --progress --rsh=ssh"
 alias sshnii='ssh gabriel@192.168.0.2'
 alias sshweeg='ssh snippy@weego.homeip.net'
