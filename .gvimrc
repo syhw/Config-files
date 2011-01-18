@@ -59,6 +59,6 @@ endif
  " colorscheme wombat
  " colorscheme zenburn
 colorscheme molokai
-set lines=65
+set lines=73
 set guifont=Menlo:h13
 

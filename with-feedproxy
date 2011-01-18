@@ -1,7 +1,0 @@
-#!/bin/bash
-confname=$1
-shift
-http-feedproxy $confname &
-proxy_pid=$!
-env 'http_proxy=127.0.0.1:8000' $@
-kill $proxy_pid
