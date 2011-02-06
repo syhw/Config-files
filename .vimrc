@@ -109,6 +109,8 @@ for prefix in ['i', 'n', 'v']
     endfor
 endfor
 
+autocmd BufRead *.tex setlocal spell spelllang=en_us
+
 set suffixesadd=.mkd
 augroup mkd
     autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:&gt;
