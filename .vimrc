@@ -93,10 +93,14 @@ colorscheme molokai
 
 
 if has("statusline")
-     set statusline=%<%f\ %h%m%r%=%{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%k\ %-14.(%l,%c%V%)\ %P
- endif
+    set statusline=%<%f\ %h%m%r%=%{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%k\ %-14.(%l,%c%V%)\ %P
+endif
 
 ""au BufNewFile *.py 0r ~/vim/skeleton.py
+
+if v:version >= 703 
+    set colorcolumn=80
+endif
 
 " To save with ctrl-s
 nmap <c-s> :w<CR>
