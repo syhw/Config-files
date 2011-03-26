@@ -1,7 +1,7 @@
 #
 # Your previous .profile  (if any) is saved as .profile.mpsaved
 # Setting the path for MacPorts.
-export PATH=$PATH:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/Users/gabrielsynnaeve/.gem/ruby/1.8/bin:~/local/bin:/usr/local/ada-4.3/bin:/usr/sbin
+export PATH=/usr/local/sbin:/usr/local/bin/:$PATH:/opt/local/bin:/opt/local/sbin:/Users/gabrielsynnaeve/.gem/ruby/1.8/bin:~/local/bin:/usr/local/ada-4.3/bin:/usr/sbin
 export DISPLAY=:0.0
 export CPATH=/usr/X11R6/include:/opt/local/include
 export LIBRARY_PATH=/usr/X11R6/lib:/opt/local/lib:/usr/local/lib:/usr/lib

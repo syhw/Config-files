@@ -99,7 +99,7 @@ endif
 ""au BufNewFile *.py 0r ~/vim/skeleton.py
 
 if v:version >= 703 
-    set colorcolumn=80
+    set colorcolumn=81
 endif
 
 " To save with ctrl-s
