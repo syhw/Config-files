@@ -71,4 +71,4 @@ export CLICOLOR=1
 export LSCOLORS="gxfxcxdxbxegedabagGxGx"
 
 echo "TODO list: "
-cat .todo
+cat .todo | head

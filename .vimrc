@@ -83,13 +83,15 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set tabstop=4
+set background=dark
  " colorscheme desert256
  " colorscheme desert
  " colorscheme elflord
  " colorscheme peachpuff
  " colorscheme ron 
  " colorscheme delek " slate
-colorscheme molokai
+ " colorscheme molokai
+colorscheme solarized
 
 
 if has("statusline")
@@ -99,7 +101,7 @@ endif
 ""au BufNewFile *.py 0r ~/vim/skeleton.py
 
 if v:version >= 703 
-    set colorcolumn=81
+    set colorcolumn=87
 endif
 
 " To save with ctrl-s
