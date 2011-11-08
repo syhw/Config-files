@@ -6,12 +6,14 @@ export DISPLAY=:0.0
 export CPATH=/usr/X11R6/include:/opt/local/include
 export LIBRARY_PATH=/usr/X11R6/lib:/opt/local/lib:/usr/local/lib:/usr/lib
 export SVN_EDITOR=vim
+export GIT_EDITOR=vim
 export USERWM=`which awesome`
 alias sshserv='ssh snippy@82.233.119.108'
 alias sshhome='ssh -p 7777 snippy@82.233.119.108'
 alias pingserv='ping 82.233.119.108'
 alias sshimag='ssh synnaevg@ensisun.imag.fr'
 alias scpresume="rsync --partial --progress --rsh=ssh"
+alias cloj="rlwrap clj"
 
 source .profile
 #source .bash_rc

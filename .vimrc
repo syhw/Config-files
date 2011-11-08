@@ -101,7 +101,7 @@ endif
 ""au BufNewFile *.py 0r ~/vim/skeleton.py
 
 if v:version >= 703 
-    set colorcolumn=87
+    set colorcolumn=80
 endif
 
 " To save with ctrl-s
@@ -122,4 +122,17 @@ augroup mkd
     autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:&gt;
 augroup END
 
+if has("multi_byte")
+    set encoding=utf-8
+    setglobal fileencoding=utf-8
+    "set bomb
+    set termencoding=utf-8
+    " set fileencodings=iso-8859-1,utf-8
+else
+    echoerr "Sorry, this version of (g)vim was not compiled with +multi_byte"
+endif
+
+augroup ml
+    au BufRead,BufNewFile *.ml set fileencoding=latin1
+augroup END
 

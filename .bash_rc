@@ -10,6 +10,7 @@ export SVN_EDITOR=vim
 export LC_CTYPE=fr_FR.UTF-8
 export LANG=fr_FR.UTF-8
 export LANGUAGE=fr_FR.UTF-8
+export LC_ALL=fr_FR.UTF-8
 export LC_MESSAGES=fr_FR.UTF-8
 #export CFLAGS="-O3 -march=core2" # :)
 #export CXXFLAGS="${CFLAGS}"
@@ -71,4 +72,4 @@ export CLICOLOR=1
 export LSCOLORS="gxfxcxdxbxegedabagGxGx"
 
 echo "TODO list: "
-cat .todo | head
+cat ~/.todo | head
